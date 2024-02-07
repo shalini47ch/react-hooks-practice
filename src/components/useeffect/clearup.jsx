@@ -11,7 +11,10 @@ const ClearUp=()=>{
 
     useEffect(()=>{
         window.addEventListener("resize",currentWidth)
-
+       return ()=>{
+        //this will remove all the previous data that was getting stored when ever useeffect was getting called
+        window.removeEventListener("resize",currentWidth)
+       }
     },[])
 
     return(
