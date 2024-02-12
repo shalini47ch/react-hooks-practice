@@ -7,6 +7,7 @@ import UseState from './components/usestate/usestate';
 import UseReducerHook from './components/usereducer/usereducer';
 import RefHooks1 from './components/useref/refhooks1';
 import RefHooks2 from './components/useref/refhooks2';
+import UseLayoutHook from './components/uselayout/uselayouthooks';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
      <UseReducerHook/>
      <RefHooks1/>
      <RefHooks2/>
+     <UseLayoutHook/>
 
     </div>
   );
